@@ -11,9 +11,7 @@
  * Base structure
  */
 
-body {
-  
-}
+body {}
 
 
 /*
@@ -39,7 +37,10 @@ body {
 }
 
 .nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
   color: rgba(255, 255, 255, .5);
+  background-color: transparent;
   border-bottom: .25rem solid transparent;
 }
 
@@ -55,4 +56,10 @@ body {
 .nav-masthead .active {
   color: #fff;
   border-bottom-color: #fff;
+}
+
+.scrolling {
+  background: black;
+  opacity: 80%;
+  transition: all 0.5s;
 }
