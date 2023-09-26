@@ -11,18 +11,18 @@
  * Base structure
  */
 
-body {}
 
 
 /*
  * Header
  */
  .banner-wrap {
-  background-image: url("./assets/banner.jpg");
+  background-image: url("./assets/background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
+  background-attachment: fixed;
   z-index: 1;
 }
 
