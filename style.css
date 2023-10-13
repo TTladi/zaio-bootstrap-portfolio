@@ -17,7 +17,7 @@
  * Header
  */
  .banner-wrap {
-  background-image: url("./assets/background.png");
+  background-image: url("./assets/pexel.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -62,4 +62,8 @@
   background: black;
   opacity: 80%;
   transition: all 0.5s;
+}
+
+section{
+    background: grey;
 }
